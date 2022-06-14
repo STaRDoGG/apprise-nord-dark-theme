@@ -23,6 +23,7 @@ This was created to use with the Apprise container (*i.e. I havent taken any tim
 
 **_Note_**: These are the original screenshots upon initial theme release; as such, they may not always show the absolute latest changes and tweaks (if any).
 
+![Main](https://raw.githubusercontent.com/STaRDoGG/apprise-nord-dark-theme/main/screenshots/apprise-notifications-nord-theme-main-j-scott-elblein.jpg)
 
 ![Overview](https://github.com/STaRDoGG/apprise-nord-dark-theme/blob/9bf695c4afeae24dffbef57cbc494e9545b48f60/screenshots/apprise-notifications-nord-theme-overview-j-scott-elblein.jpg?raw=true)
 
