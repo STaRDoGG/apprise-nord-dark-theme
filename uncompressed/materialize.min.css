@@ -644,7 +644,7 @@ ol {
 }
 
 .blue {
-    background-color: #2196F3 !important
+    background-color: #5E81AC !important; /* Scott */
 }
 
 .blue-text {
@@ -5953,9 +5953,9 @@ body.keyboard-focused .dropdown-content li:focus {
 }
 
 .collapsible {
-    border-top: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-left: 1px solid #ddd;
+    border-top: 1px solid #434C5E;   /* Scott */
+    border-right: 1px solid #434C5E; /* Scott */
+    border-left: 1px solid #434C5E;  /* Scott */
     margin: .5rem 0 1rem 0
 }
 
@@ -5968,8 +5968,9 @@ body.keyboard-focused .dropdown-content li:focus {
     -webkit-tap-highlight-color: transparent;
     line-height: 1.5;
     padding: 1rem;
-    background-color: #D8DEE9; /* Scott */ 
-    border-bottom: 1px solid #ddd
+    /* background-color: #D8DEE9; Scott */
+    background-color: #2E3440;        /* Scott */
+    border-bottom: 1px solid #4C566A; /* Scott */
 }
 
 .collapsible-header:focus {
@@ -5990,7 +5991,8 @@ body.keyboard-focused .dropdown-content li:focus {
 
 .collapsible-body {
     display: none;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #434C5E; /* Scott */
+    background-color: #2E3440;        /* Scott */
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 2rem
@@ -9223,6 +9225,7 @@ input[type=range]::-ms-thumb {
 input, select, textarea {
     color: #D8DEE9;
 }
+
  /* Scott ... */
  textarea:focus, input:focus {
     color: #D8DEE9;
@@ -9248,4 +9251,36 @@ input, select, textarea {
 
 ul.logs li.log_INFO {
     color: #D8DEE9 !important;
+}
+
+/* Scott: Icons on lists on main page */
+ol i.tiny.material-icons {
+    padding-right: 5px; /* Add a lil breathing room */
+}
+
+/* The following selectors are prone to breakage, since they're so specific */
+
+/* Icon colors */
+li:nth-child(1) > i {
+    color: #5E81AC !important;
+}
+
+li:nth-child(2) > i {
+    color: #A3BE8C !important;
+}
+
+li:nth-child(3) > i {
+    color: #D08770 !important;
+}
+
+li:nth-child(4) > i {
+    color: #BF616A !important;
+}
+
+/* Scott: Lightbulb Icon Specifically */
+#overview > div:nth-child(1) > ol > li:nth-child(3) > ul > li > i {
+    color: #EBCB8B !important;
+    font-size: 21px;
+    margin-top: -5px;
+    margin-right: 3px;
 }
